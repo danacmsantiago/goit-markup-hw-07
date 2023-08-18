@@ -147,11 +147,11 @@ body {
   margin-left: 93px;
 }
 
-.nav-menu .page {
+.nav-page {
   font-weight: 500;
 }
 
-.nav-menu .page,
+.nav-page,
 .contacts-menu .contact {
   text-decoration: none;
   line-height: 1.14;
@@ -162,16 +162,16 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-menu .page:hover,
-.nav-menu .page:focus,
-.nav-menu .page.current,
+.nav-page:hover,
+.nav-page:focus,
+.nav-page.current,
 .contacts-menu .contact:hover,
 .contacts-menu .contact:focus {
   color: var(--iris);
 }
 
-.nav-menu .item:not(:last-child),
-.contacts-menu .item:not(:last-child) {
+.nav-item:not(:last-child),
+.contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -179,11 +179,11 @@ body {
   margin-left: auto;
 }
 
-.nav-menu .page {
+.nav-page {
   position: relative;
 }
 
-.nav-menu .page.current::after {
+.nav-page.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -195,7 +195,7 @@ body {
   background-color: var(--ocean);
 }
 
-.page::after {
+.nav-page::after {
   content: "";
   border-radius: 2px;
   height: 4px;
@@ -206,8 +206,8 @@ body {
   transition: width 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 
-.page:hover::after,
-.page:focus::after {
+.nav-page:hover::after,
+.nav-page:focus::after {
   border: 2px solid var(--ocean);
   background-color: var(--ocean);
   width: 100%;
@@ -431,27 +431,27 @@ body {
 
 /* Benefits - Section 2 */
 
-.benefits {
+.benefits-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.benefits .item {
+.benefits-item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.benefits .title {
+.benefits-title {
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
   margin-bottom: 10px;
 }
 
-.benefits .description {
+.benefits-description {
   color: var(--slate);
   line-height: 1.71;
   font-size: 16px;
@@ -460,7 +460,7 @@ body {
 
 /* What We Do - Section 3*/
 
-.what-we-do {
+.what-we-do-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -468,7 +468,7 @@ body {
   justify-content: space-between;
 }
 
-.what-we-do .item {
+.what-we-do-item {
   flex-basis: (100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -480,13 +480,13 @@ body {
   background: var(--cloud);
 }
 
-.team {
+.team-list {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.team .item {
+.team-item {
   background: white;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
@@ -504,13 +504,13 @@ body {
   border-top: 0;
 }
 
-.team .name,
-.team .position {
+.team-name,
+.team-position {
   line-height: 1.19;
   text-align: center;
 }
 
-.team .name {
+.team-name {
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
@@ -518,7 +518,7 @@ body {
   padding-bottom: 10px;
 }
 
-.team .position {
+.team-position {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
@@ -526,7 +526,7 @@ body {
 
 /*Icons - Benefits*/
 
-.benefits .icon {
+.benefits-icon-wrapper {
   padding: 24px 100px;
   background-color: var(--cloud);
   gap: 36px;
@@ -572,17 +572,17 @@ body {
 
 /* Icons - Customers */
 
-.partners.list {
+.partners-list {
   display: flex;
   gap: 30px;
 }
 
-.partners > .item {
+.partners-item {
   width: calc((100% - 150px) / 6);
   height: 88px;
 }
 
-.partners .link {
+.partners-link {
   color: #8e8f99;
   width: 100%;
   height: 100%;
@@ -595,14 +595,14 @@ body {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners .link:hover,
-.partners .link:focus,
-.partners .link:active {
+.partners-link:hover,
+.partners-link:focus,
+.partners-link:active {
   color: var(--ocean);
   border-color: var(--ocean);
 }
 
-.partners .icon {
+.partners-icon {
   width: 104px;
   height: 56px;
   fill: currentColor;
@@ -660,12 +660,12 @@ body {
   justify-content: center;
 }
 
-.social-footer > .icon-item {
+.social-footer-item {
   width: 40px;
   height: 40px;
 }
 
-.social-footer .link {
+.social-footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -677,13 +677,13 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer .link:hover,
-.social-footer .link:focus,
-.social-footer .link:active {
+.social-footer-link:hover,
+.social-footer-link:focus,
+.social-footer-link:active {
   background-color: var(--mintgreen);
 }
 
-.social-footer .socmed-icon {
+.social-footer-icon {
   fill: currentColor;
   width: 24px;
   height: 24px;
@@ -716,7 +716,7 @@ body {
   letter-spacing: 0.48px;
 }
 
-.footer-button {
+.subscribe-button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -735,11 +735,11 @@ body {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-button:hover {
+.subscribe-button:hover {
   background-color: var(--ocean);
 }
 
-.footer-icon {
+.subscribe-icon {
   fill: var(--white);
   width: 24px;
   height: 20px;
@@ -777,14 +777,14 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.projects {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.project .name {
+.project-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -793,7 +793,7 @@ body {
   margin-bottom: 4px;
 }
 
-.projects .type {
+.project-type {
   color: var(--slate, #434455);
   font-weight: 400;
   line-height: 1.87;
@@ -818,12 +818,12 @@ body {
   border-top: 0px;
 }
 
-.cover-wrap {
+.project-cover-wrap {
   position: relative;
   overflow: hidden;
 }
 
-.cover-text {
+.project-cover-text {
   position: absolute;
   top: 0;
   height: 100%;
@@ -836,6 +836,6 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-card:hover .cover-text {
+.project-card:hover .project-cover-text {
   transform: translateY(0);
 }
