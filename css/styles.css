@@ -401,7 +401,11 @@ body {
 }
 
 .mobile-contacts-menu {
-  margin-bottom: 40px;
+  margin-top: 200px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .mobile-contacts-link {
@@ -429,7 +433,7 @@ body {
 /* Mobile Socials */
 .mobile-social-list {
   display: flex;
-  justify-content: space-between;
+  gap: 56px;
 }
 
 .mobile-social-item {
