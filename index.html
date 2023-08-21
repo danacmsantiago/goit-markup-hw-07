@@ -61,7 +61,7 @@
 
         <!-- Hamburger Menu Open -->
         <button
-          class="menu-toggle js-open-menu"
+          class="mobile-menu-toggle js-open-menu"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
@@ -69,104 +69,6 @@
             <use href="./images/icons/icons.svg#icon-hamburger-open"></use>
           </svg>
         </button>
-
-        <!-- Hamburger Menu Close Icon and Navigations-->
-        <div class="menu-container js-menu-container" id="mobile-menu">
-          <!-- Hamburger Menu Close Icon-->
-          <button class="menu-toggle js-close-menu">
-            <svg width="32" height="32">
-              <use href="./images/icons/icons.svg#icon-hamburger-close"></use>
-            </svg>
-          </button>
-          <!-- Mobile Navigation -->
-          <ul class="mobile-nav-menu list">
-            <li class="mobile-nav-item">
-              <a href="./index.html" class="mobile-nav-page current link"
-                >Studio</a
-              >
-            </li>
-            <li class="mobile-nav-item">
-              <a href="./portfolio.html" class="mobile-nav-page link"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mobile-nav-item">
-              <a href="#" class="mobile-nav-page link">Contacts</a>
-            </li>
-          </ul>
-          <!-- Mobile Contacts Address -->
-          <ul class="mobile-contacts-menu list">
-            <li class="mobile-contacts-item">
-              <a
-                href="tel:+110001111111"
-                class="mobile-tel mobile-contacts-link link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mobile-contacts-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="mobile-email mobile-contacts-link link"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <!-- Mobile Socials -->
-          <ul class="mobile-social-list list">
-            <li class="mobile-social-item">
-              <a
-                href="https://instagram.com"
-                class="mobile-social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Link to Instagram"
-              >
-                <svg class="mobile-social-icon" width="16" height="16">
-                  <use href="./images/icons/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-item">
-              <a
-                href="https://twitter.com"
-                class="mobile-social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Link to Twitter"
-              >
-                <svg class="mobile-social-icon" width="16" height="16">
-                  <use href="./images/icons/icons.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-item">
-              <a
-                href="https://facebook.com"
-                class="mobile-social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Link to Facebook"
-              >
-                <svg class="mobile-social-icon" width="16" height="16">
-                  <use href="./images/icons/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-item">
-              <a
-                href="https://linkedin.com"
-                class="mobile-social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Link to LinkedIn"
-              >
-                <svg class="mobile-social-icon" width="16" height="16">
-                  <use href="./images/icons/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     </header>
 
@@ -197,9 +99,8 @@
               </div>
               <h2 class="benefits-title">Strategy</h2>
               <p class="benefits-description">
-                Our goal is to identify the business<br />
-                problem to walk away with the <br />perfect and creative
-                solution.
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
               </p>
             </li>
 
@@ -211,8 +112,7 @@
               </div>
               <h2 class="benefits-title">Punctuality</h2>
               <p class="benefits-description">
-                Bring the key message to the<br />
-                brand's audience for the best price<br />
+                Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
@@ -225,9 +125,8 @@
               </div>
               <h2 class="benefits-title">Diligence</h2>
               <p class="benefits-description">
-                Research and confirm brands that<br />
-                present the strongest digital growth<br />
-                opportunities and minimize risk.
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
               </p>
             </li>
 
@@ -239,9 +138,8 @@
               </div>
               <h2 class="benefits-title">Technologies</h2>
               <p class="benefits-description">
-                Design practice focused on digital<br />
-                experiences. We bring forth a deep<br />
-                passion for problem-solving.
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
               </p>
             </li>
           </ul>
@@ -801,6 +699,113 @@
           </label>
           <button type="submit" class="button primary center">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- Hamburger Menu Close Icon and Navigations-->
+    <div class="mobile-menu-container js-menu-container" id="mobile-menu">
+      <div class="container-mobile">
+        <!-- Hamburger Menu Close Icon-->
+        <div>
+          <button class="mobile-menu-toggle js-close-menu">
+            <svg width="32" height="32">
+              <use href="./images/icons/icons.svg#icon-hamburger-close"></use>
+            </svg>
+          </button>
+        </div>
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu-content">
+          <ul class="mobile-nav-menu list">
+            <li class="mobile-nav-item">
+              <a href="./index.html" class="mobile-nav-page current link"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="./portfolio.html" class="mobile-nav-page link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-page link">Contacts</a>
+            </li>
+          </ul>
+          <!-- Mobile Contacts Address -->
+          <div class="mobile-container-footer">
+            <ul class="mobile-contacts-menu list">
+              <li class="mobile-contacts-item">
+                <a
+                  href="tel:+110001111111"
+                  class="mobile-tel mobile-contacts-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-email mobile-contacts-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <!-- Mobile Socials -->
+            <ul class="mobile-social-list list">
+              <li class="mobile-social-item">
+                <a
+                  href="https://instagram.com"
+                  class="mobile-social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Instagram"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  href="https://twitter.com"
+                  class="mobile-social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Twitter"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  href="https://facebook.com"
+                  class="mobile-social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Facebook"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  href="https://linkedin.com"
+                  class="mobile-social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to LinkedIn"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
