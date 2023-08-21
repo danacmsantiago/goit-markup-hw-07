@@ -1198,12 +1198,14 @@ body {
     row-gap: 72px;
     column-gap: 18px;
     flex-basis: calc(100% / 2);
+    justify-content: left;
   }
 
   @media screen and (min-width: 1200px) {
     flex-basis: calc(100% / 3);
     row-gap: 48px;
     column-gap: 24px;
+    justify-content: center;
   }
 }
 
