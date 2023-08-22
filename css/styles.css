@@ -114,7 +114,7 @@ body {
 .section {
   padding: 96px 0;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     padding: 120px 0;
   }
 }
@@ -137,7 +137,7 @@ body {
     width: 768px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     width: 1200px;
   }
 }
@@ -190,7 +190,7 @@ body {
     flex-direction: column;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     flex-direction: row;
   }
 }
@@ -217,7 +217,7 @@ body {
     font-size: 12px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     font-size: 16px;
   }
 }
@@ -259,7 +259,7 @@ body {
 }*/
 
 .contacts-item:not(:last-child) {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     margin-right: 50px;
   }
 }
@@ -550,7 +550,7 @@ body {
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -811,7 +811,7 @@ body {
     width: 356px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     width: 270px;
   }
 
@@ -837,7 +837,7 @@ body {
     text-align: left;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     font-size: 20px;
     font-weight: 500;
   }
@@ -853,7 +853,7 @@ body {
     font-size: 18px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     font-size: 16px;
     font-weight: 400;
   }
@@ -864,7 +864,7 @@ body {
 .benefits-icon-wrapper {
   display: none;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     display: block;
     padding: 24px 100px;
     background-color: var(--cloud);
@@ -878,7 +878,7 @@ body {
 .what-we-do-title {
   display: none;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     display: block;
     font-size: 36px;
     font-weight: 700px;
@@ -892,7 +892,7 @@ body {
 .what-we-do-list {
   display: none;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -925,7 +925,7 @@ body {
     column-gap: 24px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
     column-gap: 24px;
   }
@@ -1029,7 +1029,7 @@ body {
     column-gap: 24px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
   }
 }
@@ -1042,7 +1042,7 @@ body {
     width: calc((100% - 60px) / 3);
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     width: calc((100% - 150px) / 6);
   }
 }
@@ -1086,7 +1086,7 @@ body {
     height: 456px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     /* padding: 60px 0 60px 60px;*/
     height: 312px;
     padding: 100px 0;
@@ -1128,7 +1128,7 @@ body {
     text-align: left;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     gap: 80px;
   }
 }
@@ -1275,7 +1275,7 @@ body {
     padding-top: 64px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     padding-top: 100px;
   }
 }
@@ -1294,7 +1294,7 @@ body {
     margin-bottom: 64px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     margin-bottom: 72px;
   }
 }
@@ -1339,7 +1339,7 @@ body {
     justify-content: left;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     flex-basis: calc(100% / 3);
     row-gap: 48px;
     column-gap: 24px;
